@@ -34,7 +34,20 @@ footer{
 /*MEDIA QUERIES RESPONSIVE*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    body{
 
+    }
+    /*COLOR CHART*/
+    header{
+
+    }
+    h1{
+
+    }
+    main{
+    }
+    footer{
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
