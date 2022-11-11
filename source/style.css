@@ -11,10 +11,14 @@
     font-style:normal;
     font-weight:400;
 }
+p{
+    margin:0;
+}
 body{
     display:flex;
     flex-direction:column;
     margin:0;
+    font-family: Lora-, serif;
 }
 /*COLOR CHART*/
 header{
@@ -22,24 +26,51 @@ header{
     color:white;
     font-family: "FFF Forward", serif;
     display:flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     padding:15px;
     font-size:12px;
 }
-h1{
-    background-color: #263238;
+header img {
+    height: 25px;
+    width: 25px;
     margin:0;
+    padding:0;
+}
+header button{
+    align-self: center;
+}
+summary{
+    display:flex;
+}
+details .menu{
+    position: absolute;
+    top:5%;
+    right:10%;
+    font-family: Lora-, serif;
+    background-color: white;
+    color:#282c34;
+    padding: 10px;
+}
+.menu a{
+    padding-bottom: 3px;
+}
+h1{
+    background-color: #282c34;
+    margin:0;
+    color: white;
+    padding-left:25px;
 }
 main{
     font-family: Lora-, serif;
     background-color: #e1e2e1;
+    color : #000a12;
 }
 footer{
     background-color: #f5f5f6;
-    font-family: "FFF Forward", serif;
 }
 h3{
+    font-family: "FFF Forward", serif;
     padding-left: 30px;
 }
 .card{
@@ -78,7 +109,10 @@ img{
     height : 30px;
     box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 3px;
 }
-
+.promo {
+    font-family: Lora-, serif;
+    font-size: 12px;
+}
 
 
 
@@ -95,17 +129,50 @@ img{
     }
     .icons{
         width:30px;
+        height: 30px;
         margin:0;
         padding:0;
     }
     .icons-div{
         display:flex;
-        padding:0 0 0 50px;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .icons-div a{
+        padding-left: 8px;
+    }
+    .promo{
+        width:50%;
     }
     a{
         display:flex;
         color:black;
         text-decoration: none;
+    }
+    footer{
+        padding:5px;
+        margin:5px;
+        border: 1px solid black;
+    }
+    h3{
+        margin:0;
+        padding-bottom:15px;
+    }
+    .promo p{
+        padding: 0 20px 10px 20px;
+    }
+    .copyright{
+        font-family: Lora-, serif;
+        text-align: right;
+        padding-top:15px;
+        font-size: 10px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
 
