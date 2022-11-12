@@ -113,6 +113,10 @@ img{
     font-family: Lora-, serif;
     font-size: 12px;
 }
+.separator{
+    height: 1px;
+    background-color: black;
+}
 
 
 
@@ -136,8 +140,10 @@ img{
     .icons-div{
         display:flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: end;
         width: 50%;
+        padding-right: 10px;
+        align-items: end;
     }
 
     .icons-div a{
@@ -158,10 +164,9 @@ img{
     }
     h3{
         margin:0;
-        padding-bottom:15px;
     }
     .promo p{
-        padding: 0 20px 10px 20px;
+        padding-left: 20px;
     }
     .copyright{
         font-family: Lora-, serif;
