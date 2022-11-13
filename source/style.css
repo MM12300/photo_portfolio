@@ -17,16 +17,34 @@
     font-style:normal;
     font-weight:400;
 }
-p{
-    margin:0;
-}
+/*GLOBAL*/
 body{
     display:flex;
     flex-direction:column;
     margin:0;
     font-family: Lora-, serif;
 }
-/*COLOR CHART*/
+p{
+    margin:0;
+}
+h1{
+    background-color: #282c34;
+    margin:0;
+    color: white;
+    padding-left:25px;
+}
+h3{
+    font-family: "FFF Forward", serif;
+    padding-left: 30px;
+    margin:0;
+}
+/*GLOBAL CLASSES*/
+.separator{
+    height : 1px;
+    background-color:black;
+    margin: 10px 30px;
+}
+/*HEADER*/
 header{
     display:flex;
     flex-direction: column;
@@ -75,23 +93,22 @@ details .menu{
 .menu a{
     padding-bottom: 3px;
 }
-h1{
-    background-color: #282c34;
-    margin:0;
-    color: white;
-    padding-left:25px;
-}
+/*MAIN*/
 main{
     font-family: Lora-, serif;
     background-color: #e1e2e1;
     color : #000a12;
 }
-footer{
-    background-color: #f5f5f6;
+.legend{
+    font-family: modernsans-, serif;
+    padding:10px;
+    text-align: center;
+    background-color: #282c34;
+    color:#e1e2e1;
+    font-size:16px;
 }
-h3{
-    font-family: "FFF Forward", serif;
-    padding-left: 30px;
+section .card:nth-child(1){
+    padding-top : 10px;
 }
 .card{
     display:flex;
@@ -102,11 +119,62 @@ img{
     margin:auto;
     padding:18px;
 }
-.separator{
-    height : 1px;
-    background-color:black;
-    margin: 10px 30px;
+
+/*FOOTER*/
+.promo {
+    font-family: Lora-, serif;
 }
+footer{
+    background-color: #f5f5f6;
+}
+.promo p{
+    padding-left: 20px;
+    margin-bottom:5px;
+}
+
+.promo p:nth-child(2){
+    text-align: right;
+}
+
+.copyright{
+    font-family: Lora-, serif;
+    text-align: right;
+    padding-top:15px;
+    font-size: 10px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    padding: 0 40px;
+}
+.footer-photo{
+    width: 50%;
+}
+.icons{
+    width:30px;
+    height: 30px;
+    margin:0;
+    padding:0;
+}
+.icons-div{
+    width:50%;
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+.footer-photo img{
+    padding:0;
+}
+footer{
+    border: 1px solid black;
+}
+/*NOT USED*/
 .photo-title{
     color:#e1e2e1;
     width: 66%;
@@ -129,22 +197,7 @@ img{
     height : 30px;
     box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 3px;
 }
-.promo {
-    font-family: Lora-, serif;
-    font-size: 12px;
-}
-.separator{
-    height: 1px;
-    background-color: black;
-}
-.legend{
-    font-family: modernsans-, serif;
-    padding:10px;
-    text-align: center;
-    background-color: #282c34;
-    color:#e1e2e1;
-    font-size:16px;
-}
+
 
 /*MEDIA QUERIES RESPONSIVE*/
 /* Extra small devices (phones, 600px and down) */
@@ -158,19 +211,6 @@ img{
     img{
         width: 250px;
     }
-    .icons{
-        width:30px;
-        height: 30px;
-        margin:0;
-        padding:0;
-    }
-    .icons-div{
-        width:50%;
-        display:flex;
-        flex-direction: row;
-        justify-content: end;
-        align-items: end;
-    }
 
     .footer-bottom a{
         padding-left: 8px;
@@ -180,61 +220,31 @@ img{
         color:black;
         text-decoration: none;
     }
-    footer{
-        padding:5px;
-        margin:5px;
-        border: 1px solid black;
-    }
-    h3{
-        margin:0;
-    }
-    .promo p{
-        padding-left: 20px;
-        margin-bottom:5px;
-    }
-    .promo p:nth-child(2){
-        text-align: right;
-    }
-    .copyright{
-        font-family: Lora-, serif;
-        text-align: right;
-        padding-top:15px;
-        font-size: 10px;
-    }
-    .footer-content{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    section .card:nth-child(1){
-        padding-top : 10px;
-    }
     .card-title{
         height: 60px;
         padding:5px;
         background-color:#282c34;
         display:flex;
     }
-    .footer-bottom{
-        display: flex;
-        flex-direction: row;
-        padding: 0 40px;
-    }
-    .footer-photo{
-        width: 50%;
-    }
     .footer-photo img{
         width: 125px;
         padding:0;
+    }
+    footer{
+        padding:5px;
+        margin:5px;
+    }
+    .promo {
+        font-size : 12px;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     main{
-        margin: 0 20vw;
+        margin: 0 15vw;
     }
-    img{
+    section img{
         height: 410px;
     }
     .header-top{
@@ -249,6 +259,14 @@ img{
     .header-top p{
         display: flex;
         align-self: center;
+    }
+    .footer-photo img{
+        height: 250px;
+        padding:0;
+    }
+    footer{
+        padding:15px;
+        margin:15px;
     }
 }
 
