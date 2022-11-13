@@ -256,16 +256,19 @@ footer{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 768px) {
+    .legend{
+        font-size:24px;
+    }
     details .menu{
         top:5%;
         right:8%;
         font-size: 16px;
     }
-    main{
-        margin: 0 15vw;
-    }
+    /*main{*/
+    /*    margin: 0 15vw;*/
+    /*}*/
     section img{
-        height: 340px;
+        height: 610px;
     }
     .header-top{
         justify-content: space-between;
@@ -279,7 +282,7 @@ footer{
     .header-top p{
         display: flex;
         align-self: center;
-        font-size:30px;
+        font-size:36px;
     }
     h3{
         font-size:24px;
@@ -331,9 +334,19 @@ footer{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     section img{
-        height: 500px;
+        height: 350px;
     }
 }
 
+@media only screen and (min-width: 1400px) {
+    section img{
+        height: 400px;
+    }
+}
 
+@media only screen and (min-width: 1800px) {
+    section img{
+        height: 500px;
+    }
+}
 
