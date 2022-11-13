@@ -96,7 +96,6 @@ h3{
 .card{
     display:flex;
     flex-direction: column;
-    padding-bottom: 20px;
     font-size: 14px;
 }
 img{
@@ -147,13 +146,14 @@ img{
     font-size:16px;
 }
 
-
-
 /*MEDIA QUERIES RESPONSIVE*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     header{
         font-size:12px;
+    }
+    .header-top{
+        justify-content: space-around;
     }
     img{
         width: 250px;
@@ -206,6 +206,9 @@ img{
         flex-direction: row;
         justify-content: space-around;
     }
+    section .card:nth-child(1){
+        padding-top : 10px;
+    }
     .card-title{
         height: 60px;
         padding:5px;
@@ -224,14 +227,28 @@ img{
         width: 125px;
         padding:0;
     }
-
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    main{
+        margin: 0 20vw;
+    }
     img{
         height: 410px;
+    }
+    .header-top{
+        justify-content: space-between;
+        font-size: 20px;
+        padding: 20px 50px;
+    }
+    .header-top img{
+        width: 50px;
+        height: 50px;
+    }
+    .header-top p{
+        display: flex;
+        align-self: center;
     }
 }
 
