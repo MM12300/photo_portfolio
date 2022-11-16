@@ -35,19 +35,13 @@ h1{
 }
 h3{
     font-family: "upheavtt", serif;
-    padding-left: 30px;
+    //padding-left: 30px;
     margin:0;
 }
 a{
     display:flex;
     color:black;
     text-decoration: none;
-}
-/*GLOBAL CLASSES*/
-.separator-horizontal{
-    height : 1px;
-    background-color:black;
-    margin: 10px 30px;
 }
 /*HEADER*/
 header{
@@ -130,15 +124,20 @@ img{
 footer{
     background-color: #f5f5f6;
 }
+.footer-photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .promo p{
     margin-bottom:5px;
 }
-
-
+.copyright-div{
+    padding-top:15px;
+}
 .copyright{
     font-family: Lora-, serif;
     text-align: right;
-    padding-top:15px;
     font-size: 10px;
 }
 .inner-footer{
@@ -147,7 +146,7 @@ footer{
 }
 .footer-content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 .footer-bottom{
@@ -162,7 +161,6 @@ footer{
     padding:0;
 }
 .last-div{
-    width:50%;
     display:flex;
     flex-direction: row;
     justify-content: end;
@@ -173,6 +171,11 @@ footer{
 }
 .footer-photo img{
     padding:0;
+}
+.separator-horizontal, .separator-vertical{
+    height : 1px;
+    background-color:black;
+    margin: 10px 30px;
 }
 /*NOT USED*/
 .photo-title{
@@ -199,6 +202,54 @@ footer{
 }
 .icons-div a{
     padding-left:10px;
+}
+
+.links{
+    justify-content: center;
+}
+.links div, .last-div div:nth-child(1){
+    display:flex;
+    flex-direction: column;
+    align-self:center;
+}
+.links div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.links div a {
+    background-color: #282c34;
+    padding: 8px 20px;
+    border: 1px solid #282c34;
+    border-radius: 15px;
+    color: #e1e2e1;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: "upheavtt", serif;
+    font-size: 16px;
+    width: 45%;
+    margin: auto;
+}
+.links div a:nth-child(2) {
+    margin:10px auto;
+}
+.links div a:hover {
+    color: #282c34;
+    background-color: #e1e2e1;
+}
+.links div a p{
+    text-align: center;
+}
+.icons-div{
+    display: flex;
+    justify-content: flex-end;
+}
+.copyright-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /*MEDIA QUERIES RESPONSIVE*/
@@ -237,7 +288,7 @@ footer{
         display:flex;
     }
     .footer-photo img{
-        width: 125px;
+        width: 210px;
         padding:0;
     }
     .inner-footer{
@@ -246,6 +297,18 @@ footer{
     }
     .promo {
         font-size : 12px;
+    }
+    .follow{
+        font-size: 12px;
+    }
+    .copyright-div img{
+        width: 24px;
+        padding:0;
+        margin:0;
+    }
+    .copyright{
+        display: flex;
+        align-self: end;
     }
 }
 
@@ -327,13 +390,19 @@ footer{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    section img{
-        height: 350px;
+    .separator-horizontal{
+        height : 1px;
+        background-color:black;
+        margin: 10px 30px;
     }
     .separator-vertical{
         width:2px;
         background-color: black;
         margin: 25px 25px;
+        height: 100px;
+    }
+    section img{
+        height: 350px;
     }
     .promo{
         display:flex;
@@ -346,53 +415,11 @@ footer{
         display:flex;
         align-self: center;
     }
-    .links{
-        justify-content: center;
-    }
-    .links div, .last-div div:nth-child(1){
-        display:flex;
-        flex-direction: column;
-        align-self:center;
-    }
-    .links div{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    .links div a {
-        background-color: #282c34;
-        padding:8px;
-        border: 1px solid #282c34;
-        border-radius: 15px;
-        color: #e1e2e1;
-        display: flex;
-        justify-content: center;
-        text-transform: uppercase;
-        font-family: "upheavtt", serif;
-        font-size: 16px;
-    }
-    .links div a:hover {
-        color: #282c34;
-        background-color: #e1e2e1;
-    }
-    .links div a p{
-        text-align: center;
-    }
-    .last-div{
-        flex-direction: column;
-        align-self: center;
-    }
-    .last-div div:nth-child(2){
-        display: flex;
+    .footer-content{
         flex-direction: row;
     }
-    .follow{
-        padding-bottom: 15px;
-    }
-    .icons-div{
-        display: flex;
-        justify-content: end;
+    .links div a {
+        width: 100%;
     }
 }
 
