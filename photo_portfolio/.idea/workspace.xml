@@ -1,64 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fe7312a-caa0-401a-a10d-ac62a1ee538f" name="Changes" comment="events : need photos and titles" />
+    <list default="true" id="d08e14de-e5af-4c8c-8e74-1cf918e9f49d" name="Default Changelist" comment="title" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2HRSa0a0UZcOfBFUyPCVPdGPt9X" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2HIyneFlCeGpOXVWRgEpbI1qVuQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/_CODE/pages"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\_CODE\pages" />
+      <recent name="C:\_CODE\photo_portfolio\photo_portfolio\images\photos" />
+      <recent name="C:\_CODE\photo_portfolio\photo_portfolio\source\fonts" />
+      <recent name="C:\_CODE\photo_portfolio\photo_portfolio\source\images\photos" />
+      <recent name="C:\_CODE\photo_portfolio\photo_portfolio\source\pages" />
+      <recent name="C:\_CODE\photo_portfolio\photo_portfolio\source\images\icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_CODE\photo_portfolio\photo_portfolio" />
+      <recent name="C:\_CODE\photo_portfolio\photo_portfolio\source" />
+      <recent name="C:\_CODE\photo_portfolio\photo_portfolio\source\images\photos" />
+      <recent name="C:\_CODE\photo_portfolio\photo_portfolio\source\pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5fe7312a-caa0-401a-a10d-ac62a1ee538f" name="Changes" comment="" />
-      <created>1668246471176</created>
+      <changelist id="d08e14de-e5af-4c8c-8e74-1cf918e9f49d" name="Default Changelist" comment="" />
+      <created>1667987061250</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668246471176</updated>
-      <workItem from="1668246473303" duration="623000" />
-      <workItem from="1668247988732" duration="97000" />
-      <workItem from="1668418531206" duration="2380000" />
+      <updated>1667987061250</updated>
+      <workItem from="1667987062555" duration="2811000" />
+      <workItem from="1668153942807" duration="6367000" />
+      <workItem from="1668248848514" duration="13969000" />
+      <workItem from="1668332678574" duration="15209000" />
+      <workItem from="1668365545047" duration="6000" />
+      <workItem from="1668583077143" duration="2576000" />
     </task>
-    <task id="LOCAL-00001" summary="WIP">
-      <created>1668248035648</created>
+    <task id="LOCAL-00001" summary="index.html style.css">
+      <created>1667987161556</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1668248035648</updated>
+      <updated>1667987161556</updated>
     </task>
-    <task id="LOCAL-00002" summary="events : need photos and titles">
-      <created>1668427283086</created>
+    <task id="LOCAL-00002" summary="style update">
+      <created>1667988642625</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1668427283086</updated>
+      <updated>1667988642625</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="style update">
+      <created>1668005864400</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668005864400</updated>
+    </task>
+    <task id="LOCAL-00004" summary="footer styling, menu">
+      <created>1668160799658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668160799658</updated>
+    </task>
+    <task id="LOCAL-00005" summary="WIP">
+      <created>1668167564645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668167564645</updated>
+    </task>
+    <task id="LOCAL-00006" summary="photos, change title">
+      <created>1668261485192</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668261485192</updated>
+    </task>
+    <task id="LOCAL-00007" summary="page not bad">
+      <created>1668267191120</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668267191120</updated>
+    </task>
+    <task id="LOCAL-00008" summary="continues">
+      <created>1668277570022</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668277570022</updated>
+    </task>
+    <task id="LOCAL-00009" summary="starting tab view">
+      <created>1668335569874</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668335569874</updated>
+    </task>
+    <task id="LOCAL-00010" summary="tab + css reformat">
+      <created>1668348711153</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668348711153</updated>
+    </task>
+    <task id="LOCAL-00011" summary="tab view + footer">
+      <created>1668350493761</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668350493761</updated>
+    </task>
+    <task id="LOCAL-00012" summary="tab view + footer">
+      <created>1668351269229</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668351269229</updated>
+    </task>
+    <task id="LOCAL-00013" summary="all views, new menu, banner update, index.html copy">
+      <created>1668356551087</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668356551087</updated>
+    </task>
+    <task id="LOCAL-00014" summary="reorga for upload">
+      <created>1668359391851</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668359391851</updated>
+    </task>
+    <task id="LOCAL-00015" summary="reorga for upload">
+      <created>1668359546534</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668359546534</updated>
+    </task>
+    <task id="LOCAL-00016" summary="reorga for upload">
+      <created>1668359645778</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668359645778</updated>
+    </task>
+    <task id="LOCAL-00017" summary="photo new size">
+      <created>1668361227719</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668361227719</updated>
+    </task>
+    <task id="LOCAL-00018" summary="cs media responsive problem fix">
+      <created>1668361522997</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668361522997</updated>
+    </task>
+    <task id="LOCAL-00019" summary="title">
+      <created>1668365513451</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668365513451</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,10 +215,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="index.html style.css" />
+    <MESSAGE value="style update" />
+    <MESSAGE value="footer styling, menu" />
     <MESSAGE value="WIP" />
-    <MESSAGE value="events : need photos and titles" />
-    <option name="LAST_COMMIT_MESSAGE" value="events : need photos and titles" />
+    <MESSAGE value="photos, change title" />
+    <MESSAGE value="page not bad" />
+    <MESSAGE value="continues" />
+    <MESSAGE value="starting tab view" />
+    <MESSAGE value="tab + css reformat" />
+    <MESSAGE value="tab view + footer" />
+    <MESSAGE value="all views, new menu, banner update, index.html copy" />
+    <MESSAGE value="reorga for upload" />
+    <MESSAGE value="photo new size" />
+    <MESSAGE value="cs media responsive problem fix" />
+    <MESSAGE value="title" />
+    <option name="LAST_COMMIT_MESSAGE" value="title" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
