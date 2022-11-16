@@ -354,8 +354,14 @@ footer{
         margin:15px;
     }
     footer{
-        padding:0 15vw;
-        font-size:14px;
+        font-size:18px;
+    }
+    .links div a {
+        font-size: 24px;
+        width: 35%;
+    }
+    .promo, .last-div p{
+        padding: 0 10vw;
     }
 }
 
