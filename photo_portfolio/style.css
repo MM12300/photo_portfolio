@@ -440,7 +440,25 @@ footer{
         width:35px;
         height:35px;
     }
-
+    .icons-div {
+        padding-right: 2vw;
+    }
+    #footermenu p{
+        font-size:12px;
+    }
+    .links{
+        width:20%;
+    }
+    .links div a {
+        width: 80%;
+    }
+    .copyright {
+        font-size: 12px;
+        align-self: end;
+    }
+    .copyright-div img {
+        width: 30px;
+    }
 }
 
 
@@ -476,9 +494,6 @@ footer{
     }
     .footer-content{
         flex-direction: row;
-    }
-    .links div a {
-        width: 100%;
     }
 }
 
