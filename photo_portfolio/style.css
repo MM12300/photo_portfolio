@@ -56,7 +56,7 @@ header{
     flex-direction: row;
     justify-content: space-around;
     padding:15px;
-    font-size:12px;
+    font-size:48px;
 }
 .header-top img {
     height: 25px;
@@ -81,14 +81,28 @@ summary{
     display:flex;
 }
 details .menu{
+    font-family:modernsans-, serif;
     position: absolute;
-    font-family: Lora-, serif;
-    background-color: white;
-    color:#282c34;
-    padding: 10px;
+    color : #e1e2e1;
+    background-color : #282c34;
 }
 .menu a{
-    padding-bottom: 3px;
+    text-transform: uppercase;
+    font-size: 28px;
+    color : #e1e2e1;
+    padding:20px;
+    border-bottom: 2px white solid;
+}
+.menu a:last-child{
+    border : 0;
+}
+details[open] .menu {
+    animation: sweep .25s ease-in-out;
+}
+
+@keyframes sweep {
+    0%    {opacity: 0; margin-left: -10px}
+    100%  {opacity: 1; margin-left: 0}
 }
 /*MAIN*/
 main{
@@ -102,7 +116,7 @@ main{
     text-align: center;
     background-color: #282c34;
     color:#e1e2e1;
-    font-size:16px;
+    font-size:36px;
 }
 section .card:nth-child(1){
     padding-top : 10px;
@@ -121,6 +135,9 @@ img{
 .promo {
     font-family: Lora-, serif;
 }
+.promo p, .follow p {
+    text-align:justify;
+}
 footer{
     background-color: #f5f5f6;
 }
@@ -138,10 +155,12 @@ footer{
 .copyright{
     font-family: Lora-, serif;
     text-align: right;
-    font-size: 10px;
+    font-size: 18px;
+    display:flex;
+    align-self: center;
 }
 .inner-footer{
-    border: 1px solid black;
+    border: 3px solid black;
     margin:5px;
 }
 .footer-content{
@@ -155,8 +174,8 @@ footer{
     padding: 0 40px;
 }
 .icons{
-    width:30px;
-    height: 30px;
+    width:75px;
+    height: 75px;
     margin:0;
     padding:0;
 }
@@ -173,9 +192,9 @@ footer{
     padding:0;
 }
 .separator-horizontal, .separator-vertical{
-    height : 1px;
+    height : 2px;
     background-color:black;
-    margin: 10px 30px;
+    margin: 25px 30px;
 }
 /*NOT USED*/
 .photo-title{
@@ -252,7 +271,7 @@ footer{
     justify-content: space-between;
 }
 .copyright-div img{
-    width: 24px;
+    width: 60px;
     padding:0;
     margin:0;
 }
@@ -273,7 +292,6 @@ footer{
     .header-top p {
         display:flex;
         align-self:center;
-        font-size: 16px;
     }
     details .menu{
         top:5%;
@@ -314,11 +332,8 @@ footer{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 768px) {
-    .legend{
-        font-size:24px;
-    }
     details .menu{
-        top:5%;
+        top:4%;
         right:8%;
         font-size: 16px;
     }
@@ -330,7 +345,6 @@ footer{
     }
     .header-top{
         justify-content: space-between;
-        font-size: 20px;
         padding: 20px 50px;
     }
     .header-top img{
@@ -340,10 +354,9 @@ footer{
     .header-top p{
         display: flex;
         align-self: center;
-        font-size:36px;
     }
     h3{
-        font-size:24px;
+        font-size:48px;
     }
     .footer-photo img{
         height: 150px;
@@ -354,20 +367,27 @@ footer{
         margin:15px;
     }
     footer{
-        font-size:18px;
+        font-size:20px;
     }
     .links div a {
-        font-size: 24px;
+        font-size: 36px;
         width: 35%;
     }
     .promo, .last-div p{
         padding: 0 10vw;
+    }
+    .icons {
+        width: 50px;
+        height: 50px;
     }
 }
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .menu a {
+        font-size:18px;
+    }
     .header-top{
         font-size:30px;
     }
@@ -392,12 +412,18 @@ footer{
     .card:nth-child(even){
         border-left: 10px solid #e1e2e1;
     }
+    footer {
+        font-size: 14px;
+    }
+    .links div a {
+        font-size: 18px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .separator-horizontal{
-        height : 1px;
+        height : 2px;
         background-color:black;
         margin: 10px 30px;
     }
