@@ -135,6 +135,18 @@ img{
 .promo {
     font-family: Lora-, serif;
 }
+#footermenu{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+#footermenu p{
+    padding:0;
+    width:50%;
+    text-align:justify;
+    display: flex;
+    align-self: center;
+}
 .promo p, .follow p {
     text-align:justify;
 }
@@ -194,7 +206,7 @@ footer{
 .separator-horizontal, .separator-vertical{
     height : 2px;
     background-color:black;
-    margin: 25px 30px;
+    margin: 25px 75px;
 }
 /*NOT USED*/
 .photo-title{
@@ -264,6 +276,7 @@ footer{
 .icons-div{
     display: flex;
     justify-content: flex-end;
+    padding-right:5vw;
 }
 .copyright-div{
     display: flex;
@@ -359,7 +372,7 @@ footer{
         font-size:48px;
     }
     .footer-photo img{
-        height: 150px;
+        height: 200px;
         padding:0;
     }
     .inner-footer{
@@ -379,13 +392,6 @@ footer{
     .icons {
         width: 50px;
         height: 50px;
-    }
-}
-
-/* IPAD */
-@media only screen and (min-width: 800px) {
-    footer{
-        font-size:20px;
     }
 }
 
@@ -419,7 +425,7 @@ footer{
         border-left: 10px solid #e1e2e1;
     }
     footer{
-        font-size:20px;
+        font-size:14px;
     }
     .links div a {
         font-size: 18px;
@@ -427,6 +433,14 @@ footer{
     .promo, .last-div p {
         padding: 0 2vw;
     }
+    .footer-photo img{
+        height:100px;
+    }
+    .icons{
+        width:35px;
+        height:35px;
+    }
+
 }
 
 
@@ -445,6 +459,9 @@ footer{
     }
     section img{
         height: 350px;
+    }
+    .legend{
+        font-size: 28px;
     }
     .promo{
         display:flex;
