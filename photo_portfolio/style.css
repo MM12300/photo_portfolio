@@ -367,7 +367,7 @@ footer{
         margin:15px;
     }
     footer{
-        font-size:20px;
+        font-size:24px;
     }
     .links div a {
         font-size: 36px;
@@ -382,6 +382,12 @@ footer{
     }
 }
 
+/* IPAD */
+@media only screen and (min-width: 800px) {
+    footer{
+        font-size:20px;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -412,13 +418,17 @@ footer{
     .card:nth-child(even){
         border-left: 10px solid #e1e2e1;
     }
-    footer {
-        font-size: 14px;
+    footer{
+        font-size:20px;
     }
     .links div a {
         font-size: 18px;
     }
+    .promo, .last-div p {
+        padding: 0 2vw;
+    }
 }
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
