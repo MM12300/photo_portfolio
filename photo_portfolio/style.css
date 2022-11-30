@@ -78,9 +78,6 @@ header{
 .header-separator:first-of-type{
     margin-top: 15px;
 }
-.header-separator:last-of-type{
-    margin-bottom: 15px;
-}
 header button{
     align-self: center;
 }
