@@ -144,6 +144,16 @@ main{
     text-align: center;
     padding: 20px;
 }
+.card-home-div-content a img{
+    width: 50px;
+    margin:0;
+}
+.card-home-div-content a{
+    display: flex;
+}
+.card-home-div-content p{
+    align-self:center;
+}
 .legend {
     font-family: modernsans-, serif;
     padding: 15px 0;
@@ -414,7 +424,7 @@ footer{
     }
     .card-home-div-content a {
         font-size: 26px;
-        width: 55%;
+        width: 60%;
     }
     .promo, .last-div p{
         padding: 0 10vw;
@@ -436,7 +446,7 @@ footer{
 @media only screen and (min-width: 992px) {
     .card-home-div-content a {
         font-size: 16px;
-        width: 55%;
+        width: 60%;
     }
     h3 {
         font-size: 36px;
