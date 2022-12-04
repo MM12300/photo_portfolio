@@ -101,6 +101,9 @@ details .menu{
     background-color : #e1e2e1;
     color : #282c34;
 }
+.card-home-div a:hover img{
+    filter: brightness(0) saturate(100%) invert(15%) sepia(12%) saturate(704%) hue-rotate(182deg) brightness(98%) contrast(94%);
+}
 .menu a:last-child{
     border : 0;
 }
@@ -416,7 +419,7 @@ footer{
         margin:15px;
     }
     footer{
-        font-size:24px;
+        font-size:34px;
     }
     .links div a{
         font-size: 36px;
@@ -444,15 +447,27 @@ footer{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .home {
+        display: flex;
+    }
     .card-home-div-content a {
         font-size: 16px;
         width: 60%;
     }
-    h3 {
+    footer h3 {
         font-size: 36px;
+    }
+    footer h3 {
+        margin: 0 20vw;
     }
     .header-top {
         padding: 5px 50px;
+    }
+    .card-home-div-content a p {
+        padding: 10px;
+    }
+    .card-home-div-content a {
+        padding:0;
     }
     .card-home{
         padding: 0 10px;
@@ -464,6 +479,9 @@ footer{
     }
     .card-home-div {
         padding: 5px 0;
+    }
+    .card-home-div-content a img {
+        width: 35px;
     }
     section img{
         width: 25vw;
@@ -528,7 +546,7 @@ footer{
         padding-right: 2vw;
     }
     #footermenu p{
-        font-size:13px;
+        font-size:14px;
     }
     .copyright-div {
         padding-top: 0;
@@ -544,17 +562,20 @@ footer{
         align-self: end;
     }
     .copyright-div img {
-        width: 30px;
+        width: 50px;
     }
 }
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .header-separator {
+        margin-bottom: 50px;
+    }
     .separator-horizontal{
         height : 2px;
         background-color:black;
-        margin: 10px 30px;
+        margin: 10px 20vw;
     }
     .separator-vertical{
         width:2px;
@@ -572,6 +593,10 @@ footer{
         width:30%;
         display:flex;
     }
+    .last-div{
+        width:40%;
+        display:flex;
+    }
     .promo p{
         display:flex;
         align-self: center;
@@ -581,6 +606,14 @@ footer{
     }
     .links div a {
         width: 100%;
+    }
+    .footer-content{
+        justify-content: center;
+    }
+    .promo{
+        display: flex;
+        align-self:flex-start;
+        padding-top: 15px;
     }
 }
 
