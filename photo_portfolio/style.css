@@ -452,6 +452,15 @@ footer{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .header-bottom-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: black;
+    }
+    .header-bottom{
+        width: 50%;
+    }
     .home {
         display: flex;
     }
@@ -580,6 +589,9 @@ footer{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    main{
+        padding-top: 50px;
+    }
     .separator-horizontal{
         height : 2px;
         background-color:black;
@@ -635,5 +647,6 @@ footer{
     .icons-div {
         align-self: center;
     }
+
 }
 
