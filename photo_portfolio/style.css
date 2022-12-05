@@ -305,9 +305,9 @@ footer{
     width: 45%;
     margin: auto;
 }
-.links div a:nth-child(2) {
-    margin:10px auto;
-}
+/*.links div a:nth-child(2) {*/
+/*    margin:10px auto;*/
+/*}*/
 .links div a:hover, .card-home-div-content a:hover {
     color: #282c34;
     background-color: #e1e2e1;
@@ -444,6 +444,9 @@ footer{
         width: 100vw;
         margin: auto;
     }
+    footer {
+        font-size: 24px;
+    }
 }
 
 
@@ -487,10 +490,12 @@ footer{
     }
     section img{
         width: 25vw;
-        margin:auto
+        margin:auto;
+        height: 101%;
     }
     .landscape{
         width:45vw;
+        height: 101%;
     }
     .menu a {
         font-size:18px;
@@ -523,17 +528,16 @@ footer{
         width: 45vw;
     }
     .card:nth-child(odd){
-        padding-top:50px;
         border-right: 10px solid #e1e2e1;
-    }
-    .card{
-        padding-top:50px;
     }
     .card:nth-child(even){
         border-left: 10px solid #e1e2e1;
     }
     footer{
         font-size:16px;
+    }
+    .links div, .last-div div:nth-child(1) {
+        flex-direction: row;
     }
     .links div a {
         font-size: 18px;
@@ -548,8 +552,9 @@ footer{
         width:35px;
         height:35px;
     }
-    .icons-div {
-        padding-right: 2vw;
+    .icons-div{
+        padding:0;
+        align-self: end;
     }
     #footermenu p{
         font-size:14px;
@@ -575,9 +580,6 @@ footer{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .header-separator {
-        margin-bottom: 50px;
-    }
     .separator-horizontal{
         height : 2px;
         background-color:black;
@@ -605,7 +607,7 @@ footer{
     }
     .promo p{
         display:flex;
-        align-self: center;
+        /*align-self: center;*/
     }
     .footer-content{
         flex-direction: row;
@@ -618,8 +620,7 @@ footer{
     }
     .promo{
         display: flex;
-        align-self:flex-start;
-        padding-top: 15px;
+        align-self:center;
     }
 }
 
@@ -628,6 +629,11 @@ footer{
 }
 
 @media only screen and (min-width: 1800px) {
-
+    footer{
+        margin: 0 15vw;
+    }
+    .icons-div {
+        align-self: center;
+    }
 }
 
