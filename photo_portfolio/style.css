@@ -426,6 +426,10 @@ footer{
     .links div a{
         font-size: 36px;
         width: 35%;
+        margin-bottom: 5px;
+    }
+    .links div a:last-child{
+        margin-bottom:0;
     }
     .card-home-div-content a {
         font-size: 26px;
@@ -545,9 +549,7 @@ footer{
     footer{
         font-size:16px;
     }
-    .links div, .last-div div:nth-child(1) {
-        flex-direction: row;
-    }
+
     .links div a {
         font-size: 18px;
     }
@@ -644,9 +646,5 @@ footer{
     footer{
         margin: 0 15vw;
     }
-    .icons-div {
-        align-self: center;
-    }
-
 }
 
