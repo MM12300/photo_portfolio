@@ -1,46 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d08e14de-e5af-4c8c-8e74-1cf918e9f49d" name="Default Changelist" comment="title">
-      <change beforePath="$PROJECT_DIR$/images/photos/Bangalore1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Bangalore2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Event-001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Event-002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Event-003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Event-004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Event-005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Event-006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Event-007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Event-008.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Event-009.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Event-010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Event_test-001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Ktm1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Ktm2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb-001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb-002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb-003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb-004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb-005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb-006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb-007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb-008.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb-009.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb-010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Kumb_welcome-001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Mysore056.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Mysore1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Shivaratri1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Srisailam1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Thiru1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Ujjain1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/Ujjain2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photos/mysore-002.jpg" beforeDir="false" />
+    <list default="true" id="d08e14de-e5af-4c8c-8e74-1cf918e9f49d" name="Default Changelist" comment="photo resized">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/expo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/expo1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/kumbh.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/kumbh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,22 +28,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2HIyneFlCeGpOXVWRgEpbI1qVuQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\_CODE\photo_portfolio\photo_portfolio\images\photos" />
@@ -86,6 +53,7 @@
       <recent name="C:\_CODE\photo_portfolio\photo_portfolio\source\images\icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_CODE\photo_portfolio\images\photos" />
       <recent name="C:\_CODE\photo_portfolio\photo_portfolio" />
       <recent name="C:\_CODE\photo_portfolio\photo_portfolio\source" />
       <recent name="C:\_CODE\photo_portfolio\photo_portfolio\source\images\photos" />
@@ -106,6 +74,7 @@
       <workItem from="1668332678574" duration="15209000" />
       <workItem from="1668365545047" duration="6000" />
       <workItem from="1668583077143" duration="2576000" />
+      <workItem from="1670851616412" duration="291000" />
     </task>
     <task id="LOCAL-00001" summary="index.html style.css">
       <created>1667987161556</created>
@@ -240,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668365513451</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="photo resized">
+      <created>1670837917416</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670837917416</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +249,8 @@
     <MESSAGE value="photo new size" />
     <MESSAGE value="cs media responsive problem fix" />
     <MESSAGE value="title" />
-    <option name="LAST_COMMIT_MESSAGE" value="title" />
+    <MESSAGE value="photo resized" />
+    <option name="LAST_COMMIT_MESSAGE" value="photo resized" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
