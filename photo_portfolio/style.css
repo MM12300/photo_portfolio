@@ -56,8 +56,9 @@ header{
     font-size:48px;
 }
 .header-top h1 {
-    font-size: 36px;
+    font-size: 46px;
     margin: 0;
+    align-self: center;
 }
 .header-top img {
     height: 25px;
@@ -93,7 +94,7 @@ details .menu{
 }
 .menu a{
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 36px;
     color : #e1e2e1;
     padding:20px;
     border-bottom: 2px white solid;
@@ -167,8 +168,11 @@ main{
     background-color: #282c34;
     color: #e1e2e1;
     font-size: 36px;
-    margin: auto;
     width: 100vw;
+    margin: 30px auto auto;
+}
+.card:first-of-type .legend:first-of-type{
+    margin: auto;
 }
 .card{
     display:flex;
@@ -404,8 +408,8 @@ footer{
         padding: 20px 50px;
     }
     .header-top img{
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
     }
     .header-top p{
         display: flex;
@@ -458,6 +462,13 @@ footer{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .header-top img {
+        width: 60px;
+        height: 60px;
+    }
+    .header-top h1 {
+        font-size: 36px;
+    }
     .header-bottom-div{
         display: flex;
         flex-direction: row;
@@ -539,7 +550,6 @@ footer{
         grid-auto-rows: minmax(100px, auto);
     }
     .legend{
-        margin: 0;
         width: 45vw;
     }
     .card:nth-child(odd){
@@ -593,9 +603,6 @@ footer{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    main{
-        padding-top: 50px;
-    }
     .separator-horizontal{
         height : 2px;
         background-color:black;
@@ -606,6 +613,9 @@ footer{
         background-color: black;
         margin: 25px 25px;
         height: 100px;
+    }
+    .card:first-of-type .legend:first-of-type{
+        margin: 30px auto auto;
     }
     .legend{
         font-size: 28px;
