@@ -550,7 +550,7 @@ footer{
     main{
         margin: 0 0;
     }
-    section {
+    section, .index-grid {
         margin:0 5vw;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
