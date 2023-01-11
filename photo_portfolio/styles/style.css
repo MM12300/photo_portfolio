@@ -63,7 +63,7 @@ header{
     font-size:48px;
 }
 .header-top h1 {
-    font-size: 46px;
+    font-size: 38px;
     margin: 0;
     align-self: center;
 }
@@ -404,6 +404,9 @@ footer{
         display: flex;
         align-self: end;
     }
+    #arrow{
+        width:95px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -419,7 +422,7 @@ footer{
     }
     .header-top{
         justify-content: space-between;
-        padding: 20px 50px;
+        padding: 20px 30px;
     }
     .header-top img{
         width: 80px;
