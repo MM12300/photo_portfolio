@@ -1,21 +1,21 @@
 /*FONTS*/
 @font-face {
     font-family: "Lora-";
-    src: url("Lora-Medium.ttf");
+    src: url("fonts/Lora-Medium.ttf");
     font-style:normal;
     font-weight:400;
     font-display: swap;
 }
 @font-face {
     font-family: "modernsans-";
-    src: url("MODERNE SANS.ttf");
+    src: url("fonts/MODERNE SANS.ttf");
     font-style:normal;
     font-weight:400;
     font-display: swap;
 }
 @font-face {
     font-family: "upheavtt";
-    src: url("upheavtt.ttf");
+    src: url("fonts/upheavtt.ttf");
     font-style:normal;
     font-weight:400;
     font-display: swap;
