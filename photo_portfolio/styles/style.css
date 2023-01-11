@@ -21,6 +21,10 @@
     font-display: swap;
 }
 /*GLOBAL*/
+html {
+    touch-action: manipulation;
+}
+
 body{
     display:flex;
     flex-direction:column;
