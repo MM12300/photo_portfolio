@@ -1,21 +1,24 @@
 /*FONTS*/
 @font-face {
     font-family: "Lora-";
-    src: url("fonts/Lora-Medium.ttf");
+    src: url("Lora-Medium.ttf");
     font-style:normal;
     font-weight:400;
+    font-display: swap;
 }
 @font-face {
     font-family: "modernsans-";
-    src: url("fonts/MODERNE SANS.ttf");
+    src: url("MODERNE SANS.ttf");
     font-style:normal;
     font-weight:400;
+    font-display: swap;
 }
 @font-face {
     font-family: "upheavtt";
-    src: url("fonts/upheavtt.ttf");
+    src: url("upheavtt.ttf");
     font-style:normal;
     font-weight:400;
+    font-display: swap;
 }
 /*GLOBAL*/
 body{
@@ -249,7 +252,7 @@ footer{
 .last-div a{
     display: flex;
 }
-.footer-photo img{
+#footer-photo{
     padding:0;
 }
 .separator-horizontal, .separator-vertical{
@@ -329,7 +332,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
-.copyright-div img{
+#arrow{
     width: 130px;
     padding:0;
     margin:0;
@@ -379,7 +382,7 @@ footer{
         background-color:#282c34;
         display:flex;
     }
-    .footer-photo img{
+    #footer-photo{
         width: 210px;
         padding:0;
     }
@@ -425,7 +428,7 @@ footer{
     h3{
         font-size:48px;
     }
-    .footer-photo img{
+    #footer-photo{
         height: 200px;
         padding:0;
     }
@@ -575,7 +578,7 @@ footer{
     .promo, .last-div p {
         padding: 0 2vw;
     }
-    .footer-photo img{
+    #footer-photo{
         height:100px;
     }
     .icons{
@@ -602,7 +605,7 @@ footer{
         font-size: 12px;
         align-self: end;
     }
-    .copyright-div img {
+    #arrow {
         width: 50px;
     }
     #contact{
