@@ -20,6 +20,13 @@
     font-weight:400;
     font-display: swap;
 }
+@font-face {
+    font-family: "IBMPlexMono";
+    src: url("IBMPlexMono-Regular.ttf");
+    font-style:normal;
+    font-weight:400;
+    font-display: swap;
+}
 /*GLOBAL*/
 html {
     touch-action: manipulation;
@@ -320,7 +327,7 @@ footer{
     color: #e1e2e1;
     display: flex;
     justify-content: center;
-    font-family: "modernsans-", serif;
+    /*font-family: "IBMPlexMono-", serif;*/
     font-size: 16px;
     width: 45%;
     margin: auto;
