@@ -24,13 +24,17 @@
 html {
     touch-action: manipulation;
 }
-
 body{
+    margin:0;
     display:flex;
     flex-direction:column;
-    margin:0;
     font-family: Lora-, serif;
-    background-color:#e1e2e1;
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+    background-size: 35% 8%;
+}
+#body-other{
+    background-size: 21% 2%;
 }
 p{
     margin:0;
@@ -82,7 +86,7 @@ header{
 .header-separator{
     height:25px;
     width:100%;
-    background-color: #000a12;
+    //background-color: #000a12;
 }
 .header-separator:first-of-type{
     margin-top: 15px;
@@ -127,7 +131,7 @@ details[open] .menu {
 /*MAIN*/
 main{
     font-family: Lora-, serif;
-    background-color: #e1e2e1;
+    //background-color: #e1e2e1;
     color : #000a12;
 }
 .home{
@@ -160,7 +164,7 @@ main{
     color:#e1e2e1;
 }
 .card-home-div-content a img{
-    width: 50px;
+    width: 30%;
     margin:0;
 }
 .card-home-div-content a{
@@ -229,7 +233,12 @@ footer{
     align-self: end;
 }
 .inner-footer{
-    border: 3px solid black;
+    border: 4px double #000;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 5px #333;
+    -moz-box-shadow: 0 0 5px #333;
+    box-shadow: 0 0 5px #333;
     margin:5px;
 }
 .footer-content{
@@ -320,8 +329,13 @@ footer{
 /*    margin:10px auto;*/
 /*}*/
 .links div a:hover, .card-home-div-content a:hover {
-    color: #282c34;
     background-color: #e1e2e1;
+}
+.card-home-div-content a:hover p {
+    color: #282c34;
+}
+.card-home-div-content a:hover img{
+    filter: brightness(0) saturate(100%) invert(14%) sepia(9%) saturate(1128%) hue-rotate(182deg) brightness(92%) contrast(90%);
 }
 .links div a p{
     text-align: center;
@@ -434,14 +448,14 @@ footer{
         align-self: center;
     }
     h3{
-        font-size:48px;
+        font-size:44px;
     }
     #footer-photo{
         height: 200px;
         padding:0;
     }
     .inner-footer{
-        padding:15px 15px 0 15px;
+        padding: 15px 15px 5px 15px;
         margin:15px;
     }
     footer{
@@ -457,7 +471,7 @@ footer{
     }
     .card-home-div-content a {
         font-size: 26px;
-        width: 60%;
+        width: 65%;
     }
     .promo, .last-div p{
         padding: 0 10vw;
@@ -501,7 +515,7 @@ footer{
     }
     .card-home-div-content a {
         font-size: 16px;
-        width: 60%;
+        width: 65%;
     }
     footer h3 {
         font-size: 36px;
@@ -522,12 +536,13 @@ footer{
     /*    padding: 0 10px;*/
     /*}*/
     .card-home h3 a{
-        font-size: 28px;
-        padding: 10px 0;
+        font-size: 32px;
+        padding: 20px 0;
         height: 30px;
+        border-radius: 5px;
     }
     .card-home-div {
-        padding: 5px 0;
+        padding: 20px 0;
     }
     .card-home-div-content a img {
         width: 35px;
@@ -570,14 +585,14 @@ footer{
         grid-auto-rows: minmax(100px, auto);
     }
     .legend{
-        width: 45vw;
+        width: 32vw;
     }
-    .card:nth-child(odd){
-        border-right: 10px solid #e1e2e1;
-    }
-    .card:nth-child(even){
-        border-left: 10px solid #e1e2e1;
-    }
+    /*.card:nth-child(odd){*/
+    /*    border-right: 10px solid #e1e2e1;*/
+    /*}*/
+    /*.card:nth-child(even){*/
+    /*    border-left: 10px solid #e1e2e1;*/
+    /*}*/
     footer{
         font-size:16px;
     }
@@ -627,6 +642,30 @@ footer{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    body{
+        background-size: 6% 8%;
+    }
+    #body-other{
+        background-size: 7% 4%;
+    }
+    .card-home{
+        display: flex;
+        flex-direction: column;
+        /*background-color:#000a12;*/
+    }
+    .card-home h3{
+        margin:auto;
+        width: 100%
+    }
+
+    .card-content {
+        width: 31vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(0,10,18,0.9);
+        margin: auto;
+    }
     .separator-horizontal{
         height : 2px;
         background-color:black;
