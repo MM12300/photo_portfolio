@@ -157,6 +157,7 @@ main{
     font-size: 28px;
     text-align: center;
     padding: 20px;
+    color:#e1e2e1;
 }
 .card-home-div-content a img{
     width: 50px;
@@ -517,9 +518,9 @@ footer{
     .card-home-div-content a {
         padding:0;
     }
-    .card-home{
-        padding: 0 10px;
-    }
+    /*.card-home{*/
+    /*    padding: 0 10px;*/
+    /*}*/
     .card-home h3 a{
         font-size: 28px;
         padding: 10px 0;
@@ -561,9 +562,11 @@ footer{
         margin: 0 0;
     }
     section, .index-grid {
-        margin:0 5vw;
+        margin: 0 auto;
+        max-width: 90vw;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
         grid-auto-rows: minmax(100px, auto);
     }
     .legend{
@@ -680,4 +683,5 @@ footer{
         margin: 0 15vw;
     }
 }
+
 
