@@ -20,13 +20,6 @@
     font-weight:400;
     font-display: swap;
 }
-@font-face {
-    font-family: "IBMPlexMono";
-    src: url("IBMPlexMono-Regular.ttf");
-    font-style:normal;
-    font-weight:400;
-    font-display: swap;
-}
 /*GLOBAL*/
 html {
     touch-action: manipulation;
@@ -36,7 +29,7 @@ body{
     display:flex;
     flex-direction:column;
     font-family: Lora-, serif;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/background-20.jpg);
     background-repeat: repeat;
     background-size: 35% 8%;
 }
@@ -55,7 +48,7 @@ h3{
 }
 a{
     display:flex;
-    color:black;
+    color:#000a12;
     text-decoration: none;
 }
 /*HEADER*/
@@ -93,7 +86,7 @@ header{
 .header-separator{
     height:25px;
     width:100%;
-    //background-color: #000a12;
+    display:none;
 }
 .header-separator:first-of-type{
     margin-top: 15px;
@@ -159,10 +152,11 @@ main{
     display:flex;
     flex-direction: column;
     padding:50px 0;
+    background-color:#000a12;
 }
 .card-home-div img{
     width:85vw;
-    padding: 10px;
+    padding: 20px;
 }
 .card-home-div-content p{
     font-size: 28px;
@@ -219,7 +213,7 @@ main{
     text-align:justify;
 }
 footer{
-    background-color: #e1e2e1;
+    background-color: rgba(225, 226, 225, 0.5);
 }
 .footer-photo{
     display: flex;
@@ -278,7 +272,7 @@ footer{
 }
 .separator-horizontal, .separator-vertical{
     height : 2px;
-    background-color:black;
+    background-color:#000a12;
     margin: 25px 75px;
 }
 /*NOT USED*/
@@ -501,6 +495,9 @@ footer{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .header-separator{
+        display:block;
+    }
     .header-top img {
         width: 60px;
         height: 60px;
@@ -512,7 +509,7 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        background-color: black;
+        background-color: #000a12;
     }
     .header-bottom{
         width: 50%;
@@ -547,6 +544,7 @@ footer{
         padding: 20px 0;
         height: 30px;
         border-radius: 5px;
+        background-color: rgba(0,0,0,0);
     }
     .card-home-div {
         padding: 20px 0;
@@ -650,10 +648,10 @@ footer{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     body{
-        background-size: 6% 8%;
+        background-size: 8% 8%;
     }
     #body-other{
-        background-size: 5% 2%;
+        background-size: 6.5% 2.5%;
     }
     .card-home{
         display: flex;
@@ -672,15 +670,16 @@ footer{
         justify-content: center;
         background-color: rgba(0,10,18,0.9);
         margin: auto;
+        padding : 0 25px 25px 25px;
     }
     .separator-horizontal{
         height : 2px;
-        background-color:black;
+        background-color:#000a12;
         margin: 10px 20vw;
     }
     .separator-vertical{
         width:2px;
-        background-color: black;
+        background-color: #000a12;
         margin: 25px 25px;
         height: 100px;
     }
