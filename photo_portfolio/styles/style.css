@@ -30,7 +30,7 @@ body{
     display:flex;
     flex-direction:column;
     font-family: Lora-, serif;
-    /*background-image: url(../images/index.svg);*/
+    /*background-image: url(../images/background-low.jpg);*/
     /*background-repeat: repeat;*/
     /*background-size: contain;*/
 }
@@ -601,8 +601,11 @@ footer{
         grid-gap: 30px;
         grid-auto-rows: minmax(100px, auto);
     }
-    .legend{
-        width: 32vw;
+    .legend-portrait{
+        width: 25vw;
+    }
+    .legend-landscape{
+        width:45vw;
     }
     /*.card:nth-child(odd){*/
     /*    border-right: 10px solid #e1e2e1;*/
