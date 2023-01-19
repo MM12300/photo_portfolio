@@ -30,9 +30,9 @@ body{
     display:flex;
     flex-direction:column;
     font-family: Lora-, serif;
-    background-image: url(../images/jap.svg);
-    background-repeat: repeat;
-    background-size: contain;
+    /*background-image: url(../images/index.svg);*/
+    /*background-repeat: repeat;*/
+    /*background-size: contain;*/
 }
 p{
     margin:0;
@@ -679,7 +679,6 @@ footer{
         flex-direction: column;
         justify-content: center;
         background-color: black;
-        margin: auto;
         padding : 50px 25px 50px 25px;
     }
     .separator-horizontal{
