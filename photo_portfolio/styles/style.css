@@ -163,22 +163,6 @@ main{
     width:85vw;
     padding: 20px;
 }
-.card-home-div-content p{
-    font-size: 28px;
-    text-align: center;
-    padding: 20px;
-    color:#e1e2e1;
-}
-.card-home-div-content a img{
-    width: 30%;
-    margin:0;
-}
-.card-home-div-content a{
-    display: flex;
-}
-.card-home-div-content p{
-    align-self:center;
-}
 .legend {
     font-family: modernsans-, serif;
     padding: 15px 0;
@@ -318,7 +302,7 @@ footer{
     flex-direction: column;
     justify-content: space-evenly;
 }
-.links div a, .card-home-div-content a {
+.links div a {
     background-color: #282c34;
     padding: 8px 20px;
     border: 1px solid #282c34;
@@ -334,15 +318,10 @@ footer{
 /*.links div a:nth-child(2) {*/
 /*    margin:10px auto;*/
 /*}*/
-.links div a:hover, .card-home-div-content a:hover {
+.links div a:hover {
     background-color: #e1e2e1;
 }
-.card-home-div-content a:hover p {
-    color: #282c34;
-}
-.card-home-div-content a:hover img{
-    filter: brightness(0) saturate(100%) invert(14%) sepia(9%) saturate(1128%) hue-rotate(182deg) brightness(92%) contrast(90%);
-}
+
 .links div a p{
     text-align: center;
 }
@@ -400,12 +379,6 @@ footer{
 
     .footer-bottom a{
         padding-left: 8px;
-    }
-    .card-title{
-        height: 60px;
-        padding:5px;
-        background-color:#282c34;
-        display:flex;
     }
     #footer-photo{
         width: 210px;
@@ -475,10 +448,6 @@ footer{
     .links div a:last-child{
         margin-bottom:0;
     }
-    .card-home-div-content a {
-        font-size: 26px;
-        width: 65%;
-    }
     .promo, .last-div p{
         padding: 0 10vw;
     }
@@ -529,10 +498,6 @@ footer{
     .home {
         display: flex;
     }
-    .card-home-div-content a {
-        font-size: 16px;
-        width: 65%;
-    }
     footer h3 {
         font-size: 36px;
     }
@@ -542,15 +507,6 @@ footer{
     .header-top {
         padding: 5px 50px;
     }
-    .card-home-div-content a p {
-        padding: 10px;
-    }
-    .card-home-div-content a {
-        padding:0;
-    }
-    /*.card-home{*/
-    /*    padding: 0 10px;*/
-    /*}*/
     .card-home h3 a{
         font-size: 36px;
         padding: 20px 0;
@@ -560,9 +516,6 @@ footer{
     }
     .card-home-div {
         padding: 20px 0;
-    }
-    .card-home-div-content a img {
-        width: 35px;
     }
     section img{
         width: 25vw;
@@ -593,7 +546,7 @@ footer{
     main{
         margin: 0 0;
     }
-    section, .index-grid {
+    .index-grid {
         margin: 0 auto;
         max-width: 90vw;
         display: grid;
@@ -601,18 +554,25 @@ footer{
         grid-gap: 30px;
         grid-auto-rows: minmax(100px, auto);
     }
+    section{
+        margin: 0 auto;
+    }
+
+    .grid {
+        grid-gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
     .legend-portrait{
         width: 25vw;
     }
     .legend-landscape{
         width:45vw;
     }
-    /*.card:nth-child(odd){*/
-    /*    border-right: 10px solid #e1e2e1;*/
-    /*}*/
-    /*.card:nth-child(even){*/
-    /*    border-left: 10px solid #e1e2e1;*/
-    /*}*/
     footer{
         font-size:18px;
     }
@@ -673,6 +633,11 @@ footer{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .card{
+        width:15em;
+        height:20em;
+        background-color:red;
+    }
     .card-home{
         display: flex;
         flex-direction: column;
@@ -741,11 +706,18 @@ footer{
 }
 
 @media only screen and (min-width: 1400px) {
-
+    .card{
+        width:18em;
+        height:24em;
+    }
 }
 
 @media only screen and (min-width: 1800px) {
     footer{
         margin: 0 15vw;
+    }
+    .card{
+        width:27em;
+        height:36em;
     }
 }
