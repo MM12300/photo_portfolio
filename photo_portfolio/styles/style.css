@@ -567,6 +567,16 @@ footer{
         text-align: center;
         place-items: center;
     }
+    .grid-portrait-expo{
+        grid-gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto 25px auto;
+        width: 100%;
+        text-align: center;
+        place-items: center;
+    }
     .grid-landscape {
         grid-gap: 30px;
         grid-auto-rows: minmax(100px, auto);
@@ -578,6 +588,18 @@ footer{
         place-items: center;
         padding-top : 25px;
     }
+    .grid-landscape-expo {
+        grid-gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto 25px auto;
+        width: 100%;
+        text-align: center;
+        place-items: center;
+        padding-top : 25px;
+    }
+
     .legend-portrait{
         width: 100%;
     }
@@ -644,12 +666,12 @@ footer{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .grid-portrait .card-portrait{
+    .grid-portrait .card-portrait, .grid-portrait-expo .card-portrait{
         width:15em;
         height:23em;
         background-color:red;
     }
-    .grid-landscape .card-landscape {
+    .grid-landscape .card-landscape, .grid-landscape-expo .card-landscape{
         height: 18em;
         width: 20em;
     }
@@ -719,11 +741,11 @@ footer{
 }
 
 @media only screen and (min-width: 1400px) {
-    .grid-portrait .card-portrait{
+    .grid-portrait .card-portrait, .grid-portrait-expo .card-portrait{
         width:18em;
         height:26em;
     }
-    .grid-landscape .card-landscape {
+    .grid-landscape .card-landscape, .grid-landscape-expo .card-landscape{
         height: 20em;
         width: 23em;
     }
@@ -733,11 +755,11 @@ footer{
     footer{
         margin: 0 15vw;
     }
-    .grid-portrait .card-portrait{
+    .grid-portrait .card-portrait, .grid-portrait-expo .card-portrait{
         width:27em;
         height:38em;
     }
-    .grid-landscape .card-landscape {
+    .grid-landscape .card-landscape, .grid-landscape-expo .card-landscape{
         height: 26em;
         width: 30em;
     }
