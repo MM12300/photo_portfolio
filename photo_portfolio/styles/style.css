@@ -169,6 +169,9 @@ main{
     margin: 0;
     transform: translate(0,-4px);
 }
+.card-kumbh .legend {
+    transform: translate(0,-5px);
+}
 .card-portrait:first-of-type .legend:first-of-type{
     margin: auto;
 }
@@ -669,7 +672,11 @@ footer{
     .grid-portrait .card-portrait, .grid-portrait-expo .card-portrait{
         width:15em;
         height:23em;
-        background-color:red;
+        background-color:#282c34;
+    }
+    .grid-portrait .card-kumbh{
+        width:15em;
+        height:25em;
     }
     .grid-landscape .card-landscape, .grid-landscape-expo .card-landscape{
         height: 24em;
@@ -758,6 +765,10 @@ footer{
     .grid-portrait .card-portrait, .grid-portrait-expo .card-portrait{
         width:27em;
         height:38em;
+    }
+    .grid-portrait .card-kumbh{
+        width:27em;
+        height:43em;
     }
     .grid-landscape .card-landscape, .grid-landscape-expo .card-landscape{
         height: 30em;
