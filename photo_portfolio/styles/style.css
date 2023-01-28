@@ -46,7 +46,7 @@ h3{
 }
 a{
     display:flex;
-    color:#000a12;
+    color:#e1e2e1;
     text-decoration: none;
 }
 /*HEADER*/
@@ -167,7 +167,7 @@ main{
     font-size: 36px;
     width: 100vw;
     margin: 0;
-    transform: translate(0,-4px);
+    transform: translate(0,-5px);
 }
 .card-kumbh .legend {
     transform: translate(0,-5px);
@@ -177,8 +177,12 @@ main{
 }
 
 /*FOOTER*/
-.promo {
-    font-family: Lora-, serif;
+footer{
+    background-color: #000a12;
+    color: #e1e2e1;
+}
+footer .separator-horizontal{
+    background-color: #e1e2e1;
 }
 #footermenu{
     display:flex;
@@ -192,19 +196,10 @@ main{
     display: flex;
     align-self: center;
 }
-.promo p, .follow p {
-    text-align:justify;
-}
-footer{
-    background-color: rgba(225, 226, 225, 0.9);
-}
 .footer-photo{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.promo p{
-    margin-bottom:5px;
 }
 .copyright-div{
     padding-top:15px;
@@ -217,12 +212,12 @@ footer{
     align-self: end;
 }
 .inner-footer{
-    border: 4px double #000;
+    border: 4px double #e1e2e1;
     border-radius: 10px;
     overflow: hidden;
-    -webkit-box-shadow: 0 0 5px #333;
-    -moz-box-shadow: 0 0 5px #333;
-    box-shadow: 0 0 5px #333;
+    -webkit-box-shadow: 0 0 5px #e1e2e1;
+    -moz-box-shadow: 0 0 5px #e1e2e1;
+    box-shadow: 0 0 5px #e1e2e1;
     margin:5px;
 }
 .footer-content{
@@ -249,11 +244,12 @@ footer{
 }
 .last-div a{
     display: flex;
+    align-self: center;
 }
 #footer-photo{
     padding:0;
 }
-.separator-horizontal, .separator-vertical{
+.separator-horizontal{
     height : 2px;
     background-color:#000a12;
     margin: 25px 75px;
@@ -319,23 +315,26 @@ footer{
 .links div a p{
     text-align: center;
 }
-.icons-div{
+#icons-div, #icons-div-mobile{
     display: flex;
     justify-content: space-around;
     padding-right:5vw;
     padding-top:20px;
+}
+#icons-div{
+    display:none;
 }
 .copyright-div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-#arrow{
-    width: 130px;
+.arrow{
+    width: 75px;
     padding:0;
     margin:0;
 }
-#contact{
+.contact{
     align-self: center;
     font-family: "upheavtt", serif;
     padding: 16px;
@@ -382,9 +381,6 @@ footer{
         padding:5px;
         margin:5px;
     }
-    .promo {
-        font-size : 12px;
-    }
     .follow{
         font-size: 12px;
     }
@@ -392,7 +388,7 @@ footer{
         display: flex;
         align-self: end;
     }
-    #arrow{
+    .arrow{
         width:95px;
     }
 }
@@ -448,12 +444,15 @@ footer{
     .links div a:last-child{
         margin-bottom:0;
     }
-    .promo, .last-div p{
+    .last-div p{
         padding: 0 10vw;
     }
     .icons {
         width: 75px;
         height: 75px;
+    }
+    #arrow{
+        width: 75px;
     }
 }
 @media only screen and (min-width: 768px) and (min-height: 1000px){
@@ -506,7 +505,7 @@ footer{
         font-size: 36px;
     }
     footer h3 {
-        margin: 0 20vw;
+        margin: 0 15vw;
     }
     .header-top {
         padding: 5px 50px;
@@ -619,7 +618,7 @@ footer{
     .links div a {
         font-size: 18px;
     }
-    .promo, .last-div p {
+    .last-div p {
         padding: 0 2vw;
     }
     #footer-photo{
@@ -629,7 +628,7 @@ footer{
         width:35px;
         height:35px;
     }
-    .icons-div{
+    #icons-div, #icons-div-mobile{
         padding:0;
         align-self: end;
     }
@@ -649,10 +648,10 @@ footer{
         font-size: 12px;
         align-self: end;
     }
-    #arrow {
+    .arrow {
         width: 50px;
     }
-    #contact{
+    .contact{
         font-size : 16px;
         padding: 8px;
     }
@@ -661,7 +660,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: black;
+        background-color: #000a12;
         padding : 50px 25px 50px 25px;
     }
 }
@@ -695,32 +694,19 @@ footer{
     .separator-horizontal{
         height : 2px;
         background-color:#000a12;
-        margin: 10px 20vw;
-    }
-    .separator-vertical{
-        width:2px;
-        background-color: #000a12;
-        margin: 15px 15px;
-        height: 100px;
+        margin: 10px 15vw;
     }
     .legend{
         font-size: 18px;
         margin:0;
     }
-    .promo{
-        display:flex;
-    }
-    .promo, .links, .last-div{
+    .links, .last-div{
         width:30%;
         display:flex;
     }
     .last-div{
-        width:40%;
+        width:100%;
         display:flex;
-    }
-    .promo p{
-        display:flex;
-        /*align-self: center;*/
     }
     .footer-content{
         flex-direction: row;
@@ -745,6 +731,19 @@ footer{
     .card-content:hover .title-bar{
         width:80%;
     }
+    #icons-div-mobile{
+        display:none;
+    }
+    #icons-div{
+        display:flex;
+        align-self: center;
+    }
+    .copyright-div{
+        justify-content: end;
+    }
+    #footer-photo{
+        height:150px;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
@@ -759,8 +758,8 @@ footer{
 }
 
 @media only screen and (min-width: 1800px) {
-    footer{
-        margin: 0 15vw;
+    .inner-footer{
+        margin: 2vw 15vw;
     }
     .grid-portrait .card-portrait, .grid-portrait-expo .card-portrait{
         width:27em;
