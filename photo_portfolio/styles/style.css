@@ -455,7 +455,7 @@ footer .separator-horizontal{
         width: 75px;
     }
 }
-@media only screen and (min-width: 768px) and (min-height: 1000px){
+@media only screen and (min-width: 800px){
     section img {
         width: 100vw;
         margin: auto;
@@ -486,7 +486,7 @@ footer .separator-horizontal{
         height: 60px;
     }
     .header-top h1 {
-        font-size: 36px;
+        font-size: 50px;
     }
     .header-bottom-div{
         display: flex;
@@ -625,15 +625,15 @@ footer .separator-horizontal{
         height:100px;
     }
     .icons{
-        width:35px;
-        height:35px;
+        width:50px;
+        height:50px;
     }
     #icons-div, #icons-div-mobile{
         padding:0;
         align-self: end;
     }
     #footermenu p{
-        font-size:16px;
+        font-size:22px;
     }
     .copyright-div {
         padding-top: 0;
@@ -649,10 +649,10 @@ footer .separator-horizontal{
         align-self: end;
     }
     .arrow {
-        width: 50px;
+        width: 60px;
     }
     .contact{
-        font-size : 18px;
+        font-size : 26px;
         padding: 8px;
     }
     .card-content {
@@ -662,6 +662,12 @@ footer .separator-horizontal{
         justify-content: center;
         background-color: #000a12;
         padding : 50px 25px 50px 25px;
+    }
+    .header-separator {
+        height: 70px;
+    }
+    body {
+        background-color:red;
     }
 }
 
