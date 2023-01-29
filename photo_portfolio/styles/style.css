@@ -547,8 +547,50 @@ footer .separator-horizontal{
 }
 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* MID-DPI LAPTOP */
 @media only screen and (min-width: 1200px) {
+    .grid-portrait {
+        grid-gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto 25px auto;
+        width: 100%;
+        text-align: center;
+        place-items: center;
+    }
+    .grid-portrait-expo{
+        grid-gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto 25px auto;
+        width: 100%;
+        text-align: center;
+        place-items: center;
+    }
+    .grid-landscape {
+        grid-gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto 25px auto;
+        width: 100%;
+        text-align: center;
+        place-items: center;
+        padding-top : 25px;
+    }
+    .grid-landscape-expo {
+        grid-gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto 25px auto;
+        width: 100%;
+        text-align: center;
+        place-items: center;
+        padding-top : 25px;
+    }
     .grid-portrait .card-portrait, .grid-portrait-expo .card-portrait{
         width:15em;
         height:23em;
@@ -638,55 +680,41 @@ footer .separator-horizontal{
     section .header-separator:last-of-type{
         display:none;
     }
-}
-
-@media only screen and (min-width: 1400px) {
-    .grid-portrait {
-        grid-gap: 30px;
-        grid-auto-rows: minmax(100px, auto);
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 0 auto 25px auto;
-        width: 100%;
-        text-align: center;
-        place-items: center;
-    }
-    .grid-portrait-expo{
-        grid-gap: 30px;
-        grid-auto-rows: minmax(100px, auto);
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 0 auto 25px auto;
-        width: 100%;
-        text-align: center;
-        place-items: center;
-    }
-    .grid-landscape {
-        grid-gap: 30px;
-        grid-auto-rows: minmax(100px, auto);
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 0 auto 25px auto;
-        width: 100%;
-        text-align: center;
-        place-items: center;
-        padding-top : 25px;
-    }
-    .grid-landscape-expo {
-        grid-gap: 30px;
-        grid-auto-rows: minmax(100px, auto);
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: 0 auto 25px auto;
-        width: 100%;
-        text-align: center;
-        place-items: center;
-        padding-top : 25px;
-    }
-
     .grid-portrait .card-portrait, .grid-portrait-expo .card-portrait{
         width:32em;
         height:46em;
+    }
+    .grid-landscape .card-landscape, .grid-landscape-expo .card-landscape{
+        height: 34em;
+        width: 40em;
+    }
+    .grid-landscape-expo .card-landscape{
+        width:22em;
+        height:18em;
+    }
+    .grid-portrait .card-kumbh{
+        width:24em;
+        height:39em;
+    }
+}
+
+/* IPAD */
+@media only screen and (min-width: 1400px) {
+    .grid-portrait {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-portrait-expo{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-landscape {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-landscape-expo {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grid-portrait .card-portrait, .grid-portrait-expo .card-portrait{
+        width:28em;
+        height:40em;
     }
     .grid-landscape .card-landscape, .grid-landscape-expo .card-landscape{
         height: 34em;
@@ -708,9 +736,6 @@ footer .separator-horizontal{
         width: 100%;
         text-align: center;
         place-items: center;
-    }
-    body{
-        background-color:grey;
     }
     .inner-footer{
         margin: 2vw 15vw;
