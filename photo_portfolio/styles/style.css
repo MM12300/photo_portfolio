@@ -50,6 +50,7 @@ a{
 header{
     display:flex;
     flex-direction: column;
+    font-size:12px;
 }
 .header-top{
     background-color: #000a12;
@@ -60,6 +61,10 @@ header{
     justify-content: space-around;
     padding:15px;
     font-size:48px;
+}
+.header-top p {
+    display:flex;
+    align-self:center;
 }
 .header-top h1 {
     font-size: 38px;
@@ -89,6 +94,8 @@ details .menu{
     position: absolute;
     color : #e1e2e1;
     background-color : #282c34;
+    top:5%;
+    right:10%;
 }
 .menu a{
     text-transform: uppercase;
@@ -207,6 +214,7 @@ footer .separator-horizontal{
     -moz-box-shadow: 0 0 5px #e1e2e1;
     box-shadow: 0 0 5px #e1e2e1;
     margin:5px;
+    padding:5px;
 }
 .footer-content{
     display: flex;
@@ -231,6 +239,7 @@ footer .separator-horizontal{
 }
 #footer-photo{
     padding:0;
+    width: 210px;
 }
 .separator-horizontal{
     height : 2px;
@@ -266,55 +275,11 @@ footer .separator-horizontal{
     color: #e1e2e1;
     font-size: 36px;
 }
-
-/*MEDIA QUERIES RESPONSIVE*/
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    details .menu{
-        top:5%;
-        right:10%;
-    }
-    header{
-        font-size:12px;
-    }
-    .header-top{
-        justify-content: space-around;
-    }
-    .header-top p {
-        display:flex;
-        align-self:center;
-    }
-    details .menu{
-        top:5%;
-        right:10%;
-    }
-    img{
-        width: 250px;
-    }
-
-    .footer-bottom a{
-        padding-left: 8px;
-    }
-    #footer-photo{
-        width: 210px;
-        padding:0;
-    }
-    .inner-footer{
-        padding:5px;
-        margin:5px;
-    }
-    .follow{
-        font-size: 12px;
-    }
-    .copyright{
-        display: flex;
-        align-self: end;
-    }
-    .arrow{
-        width:95px;
-    }
+.footer-bottom a{
+    padding-left: 8px;
 }
 
+/*MEDIA QUERIES RESPONSIVE*/
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 768px) {
     .header-separator{
