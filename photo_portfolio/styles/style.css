@@ -345,7 +345,7 @@ footer .separator-horizontal{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        background-color: #000a12;
+        background-color: black;
         padding-bottom: 20px;
     }
     .header-bottom{
