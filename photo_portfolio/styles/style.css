@@ -40,7 +40,7 @@ h1 {
 h3{
     font-family: "upheavtt", serif;
     margin:0;
-    font-size:44px;
+    font-size:34px;
 }
 a{
     display:flex;
@@ -59,7 +59,7 @@ header{
     font-family: "upheavtt", serif;
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size:48px;
     padding: 20px 30px;
 }
@@ -171,13 +171,13 @@ section img {
     font-size: 36px;
     width: 100vw;
     margin: 0;
-    transform: translate(0,-5px);
+    transform: translate(0,-0.3em);
 }
 .card-portrait, .card-landscape {
     margin-top:10px;
 }
 .card-kumbh .legend {
-    transform: translate(0,-5px);
+    transform: translate(0,-0.3em);
 }
 .card-portrait:first-of-type .legend:first-of-type{
     margin: auto;
@@ -309,15 +309,6 @@ footer .separator-horizontal{
 
 /*MEDIA QUERIES RESPONSIVE*/
 
-@media only screen and (min-width: 800px){
-    section img {
-        width: 100vw;
-        margin: auto;
-    }
-    footer {
-        font-size: 24px;
-    }
-}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
