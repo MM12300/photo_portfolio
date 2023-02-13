@@ -1,4 +1,14 @@
-on: workflow_dispatch
+on:
+  push:
+    branches:
+      - master
+      - development
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: string
+        default: DEV
+        required: true
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
