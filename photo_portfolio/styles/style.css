@@ -215,6 +215,7 @@ footer .separator-horizontal{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 .copyright-div{
     padding-top:15px;
