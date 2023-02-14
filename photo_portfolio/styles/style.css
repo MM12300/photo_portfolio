@@ -37,7 +37,7 @@ p{
 h1 {
 
 }
-h3{
+h2{
     font-family: "upheavtt", serif;
     margin:0;
     font-size:34px;
@@ -145,7 +145,7 @@ main{
 section img {
     width: 100vw;
 }
-.card-home h3 a{
+.card-home h2 a{
     font-family: modernsans-, serif;
     background-color:#282c34;
     color:#e1e2e1;
@@ -345,16 +345,16 @@ body{
     .home {
         display: flex;
     }
-    footer h3 {
+    footer h2 {
         font-size: 36px;
     }
-    footer h3 {
+    footer h2 {
         margin: 0 15vw;
     }
     .header-top {
         padding: 5px 50px;
     }
-    .card-home h3 a{
+    .card-home h2 a{
         font-size: 36px;
         padding: 20px 0;
         height: 30px;
@@ -531,7 +531,7 @@ body{
         flex-direction: column;
         /*background-color:#000a12;*/
     }
-    .card-home h3{
+    .card-home h2{
         margin:auto;
         width: 100%;
         margin-bottom: 20px;
