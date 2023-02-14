@@ -46,6 +46,7 @@ a{
     display:flex;
     color:#e1e2e1;
     text-decoration: none;
+    justify-content: center;
 }
 /*HEADER*/
 header {
@@ -204,11 +205,11 @@ footer .separator-horizontal{
     justify-content:space-around;
 }
 #footermenu p{
-    padding:0;
-    width:50%;
-    text-align:justify;
+    padding: 0;
+    width: 90%;
+    text-align: justify;
     display: flex;
-    align-self: center;
+    margin: auto;
 }
 .footer-photo{
     display: flex;
@@ -280,11 +281,6 @@ footer .separator-horizontal{
     flex-direction: row;
     justify-content: space-between;
 }
-.arrow{
-    width: 75px;
-    padding:0;
-    margin:0;
-}
 .contact{
     align-self: center;
     font-family: "upheavtt", serif;
@@ -308,9 +304,6 @@ footer .separator-horizontal{
 }
 .last-div p{
     padding: 0 10vw;
-}
-#arrow{
-    width: 75px;
 }
 body{
     background-color:#697987;
@@ -454,9 +447,6 @@ body{
         font-size: 12px;
         align-self: end;
     }
-    .arrow {
-        width: 60px;
-    }
     .contact{
         font-size : 26px;
         padding: 8px;
@@ -591,6 +581,7 @@ body{
     #icons-div{
         display:flex;
         align-self: center;
+        margin-top : 25px;
     }
     .copyright-div{
         justify-content: end;
@@ -603,7 +594,7 @@ body{
         padding : 0 10px;
     }
     .contact {
-        font-size: 16px;
+        font-size: 24px;
     }
     .header-separator {
         height: 35px;
@@ -626,6 +617,13 @@ body{
     .grid-portrait .card-kumbh{
         width:24em;
         height:39em;
+    }
+    #footermenu p {
+        width: 90%;
+    }
+    .footer-div{
+        display: flex;
+        flex-direction: column;
     }
 }
 
