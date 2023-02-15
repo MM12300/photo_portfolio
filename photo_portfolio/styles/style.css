@@ -37,7 +37,7 @@ p{
 h1 {
 
 }
-h3{
+h2{
     font-family: "upheavtt", serif;
     margin:0;
     font-size:34px;
@@ -46,6 +46,7 @@ a{
     display:flex;
     color:#e1e2e1;
     text-decoration: none;
+    justify-content: center;
 }
 /*HEADER*/
 header {
@@ -144,7 +145,7 @@ main{
 section img {
     width: 100vw;
 }
-.card-home h3 a{
+.card-home h2 a{
     font-family: modernsans-, serif;
     background-color:#282c34;
     color:#e1e2e1;
@@ -204,16 +205,17 @@ footer .separator-horizontal{
     justify-content:space-around;
 }
 #footermenu p{
-    padding:0;
-    width:50%;
-    text-align:justify;
+    padding: 0;
+    width: 90%;
+    text-align: justify;
     display: flex;
-    align-self: center;
+    margin: auto;
 }
 .footer-photo{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 .copyright-div{
     padding-top:15px;
@@ -280,11 +282,6 @@ footer .separator-horizontal{
     flex-direction: row;
     justify-content: space-between;
 }
-.arrow{
-    width: 75px;
-    padding:0;
-    margin:0;
-}
 .contact{
     align-self: center;
     font-family: "upheavtt", serif;
@@ -308,9 +305,6 @@ footer .separator-horizontal{
 }
 .last-div p{
     padding: 0 10vw;
-}
-#arrow{
-    width: 75px;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -348,16 +342,16 @@ footer .separator-horizontal{
     .home {
         display: flex;
     }
-    footer h3 {
+    footer h2 {
         font-size: 36px;
     }
-    footer h3 {
+    footer h2 {
         margin: 0 15vw;
     }
     .header-top {
         padding: 5px 50px;
     }
-    .card-home h3 a{
+    .card-home h2 a{
         font-size: 36px;
         padding: 20px 0;
         height: 30px;
@@ -451,9 +445,6 @@ footer .separator-horizontal{
         font-size: 12px;
         align-self: end;
     }
-    .arrow {
-        width: 60px;
-    }
     .contact{
         font-size : 26px;
         padding: 8px;
@@ -537,7 +528,7 @@ footer .separator-horizontal{
         flex-direction: column;
         /*background-color:#000a12;*/
     }
-    .card-home h3{
+    .card-home h2{
         margin:auto;
         width: 100%;
         margin-bottom: 20px;
@@ -588,6 +579,7 @@ footer .separator-horizontal{
     #icons-div{
         display:flex;
         align-self: center;
+        margin-top : 25px;
     }
     .copyright-div{
         justify-content: end;
@@ -600,7 +592,7 @@ footer .separator-horizontal{
         padding : 0 10px;
     }
     .contact {
-        font-size: 16px;
+        font-size: 24px;
     }
     .header-separator {
         height: 35px;
@@ -623,6 +615,13 @@ footer .separator-horizontal{
     .grid-portrait .card-kumbh{
         width:24em;
         height:39em;
+    }
+    #footermenu p {
+        width: 90%;
+    }
+    .footer-div{
+        display: flex;
+        flex-direction: column;
     }
 }
 
