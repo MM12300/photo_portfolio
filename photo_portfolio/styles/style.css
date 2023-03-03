@@ -360,6 +360,7 @@ footer .separator-horizontal{
     }
     .card-home-div {
         padding: 20px 0;
+        margin:auto;
     }
     section img{
         width: 100%;
@@ -377,9 +378,6 @@ footer .separator-horizontal{
     .card-home-div-content p{
         text-align: center;
         font-size: 14px;
-    }
-    .card-home-div{
-        margin:auto;
     }
     .card-home-div img {
         width: 35vw;
